@@ -11,3 +11,4 @@ All models were trained on $1/2$ of the ADE20K Dataset for 30 epochs with the sa
 
 ### Dataset Review
 We trained the model and did experiment on ADE20K dataset, Here is a visualization of the dataset:
+![alt text](https://github.com/fengling0410/Advances-in-Computer-Vision-Final-Project-Semantic-Segmentation-with-Edge-Supervision/blob/main/data_visual.png)
