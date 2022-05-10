@@ -41,11 +41,18 @@ We trained the model and did experiment on ADE20K dataset, Here is a visualizati
 #### Visualizations
 
 ![ground_truth](Image/img_seg_visual.png)
-![ground_truth](Image/unet_pre_pred_shrink.png)
-![ground_truth](Image/pre_pred_model1_shrink.png)
-![ground_truth](Image/pre_edge_model1_shrink.png)
-![ground_truth](Image/segout_model2.png)
-![ground_truth](Image/edgeout_model2.png)
-![ground_truth](Image/pre_seg_model3.png)
-![ground_truth](Image/pre_edge_model3.png)
+![unet_pred](Image/unet_pre_pred_shrink.png)
+![seg_pred_1](Image/pre_pred_model1_shrink.png)
+![edge_pred_1](Image/pre_edge_model1_shrink.png)
+![seg_pred_2](Image/segout_model2.png)
+![edge_pred_2](Image/edgeout_model2.png)
+![seg_pred_3](Image/pre_seg_model3.png)
+![edge_pred_3](Image/pre_edge_model3.png)
 
+#### Individual Object Class IoU Analysis
+
+| Baseline | Model 1 | Model 2 | Model 3 |
+|:--------:|:-------:|:-------:|:-------:|
+|     3    |    24   |    14   |    32   |
+
+![appendix](Paper/Appendix.pdf)
