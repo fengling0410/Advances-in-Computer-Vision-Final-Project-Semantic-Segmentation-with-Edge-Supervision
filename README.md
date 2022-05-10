@@ -55,4 +55,9 @@ We trained the model and did experiment on ADE20K dataset, Here is a visualizati
 |:--------:|:-------:|:-------:|:-------:|
 |     3    |    24   |    14   |    32   |
 
-![appendix](Paper/Appendix.pdf)
+![appendix](Image/Appendix_Page_1.png)
+![appendix](Image/Appendix_Page_2.png)
+![appendix](Image/Appendix_Page_3.png)
+![appendix](Image/Appendix_Page_4.png)
+![appendix](Image/Appendix_Page_5.png)
+![appendix](Image/Appendix_Page_6.png)
