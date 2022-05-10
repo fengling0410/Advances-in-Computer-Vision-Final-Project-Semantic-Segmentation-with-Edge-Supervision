@@ -36,7 +36,7 @@ We trained the model and did experiment on ADE20K dataset, Here is a visualizati
 | Baseline |      55.5      |     38.45    |    17.66    |
 |  Model 1 |      57.4      |   **41.41**  |    20.47    |
 |  Model 2 |    **57.9**    |     38.50    |    18.46    |
-|  Model 3 |      57.2      |     41.22    |    22.15    |
+|  Model 3 |      57.2      |     41.22    |  **22.15**  |
 
 #### Visualizations
 
