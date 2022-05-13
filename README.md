@@ -11,4 +11,53 @@ All models were trained on half of the ADE20K Dataset for 30 epochs with the sam
 
 ### Dataset Review
 We trained the model and did experiment on ADE20K dataset, Here is a visualization of the dataset:
-![alt text](https://github.com/fengling0410/Advances-in-Computer-Vision-Final-Project-Semantic-Segmentation-with-Edge-Supervision/blob/main/data_visual.png)
+![alt text](Image/data_visual.png)
+
+### Models
+
+#### Model 1 - Binary Edge Supervision
+
+![model1](Image/model_1.png)
+
+#### Model 2 - Multi-class Edge Supervision
+
+![model2](Image/model_2.png)
+
+#### Model 3 - Pre-trained EdgeNet
+
+![model3](Image/model_3.png)
+
+### Results
+
+#### Evaluation Metrics
+
+|   Model  | Pixel Accuracy | Weighted IoU | Mean IoU 50 |
+|:--------:|:--------------:|:------------:|:-----------:|
+| Baseline |      55.5      |     38.45    |    17.66    |
+|  Model 1 |      57.4      |   **41.41**  |    20.47    |
+|  Model 2 |    **57.9**    |     38.50    |    18.46    |
+|  Model 3 |      57.2      |     41.22    |  **22.15**  |
+
+#### Visualizations
+
+![ground_truth](Image/img_seg_visual.png)
+![unet_pred](Image/unet_pre_pred_shrink.png)
+![seg_pred_1](Image/pre_pred_model1_shrink.png)
+![edge_pred_1](Image/pre_edge_model1_shrink.png)
+![seg_pred_2](Image/segout_model2.png)
+![edge_pred_2](Image/edgeout_model2.png)
+![seg_pred_3](Image/pre_seg_model3.png)
+![edge_pred_3](Image/pre_edge_model3.png)
+
+#### Individual Object Class IoU Analysis
+
+| Baseline | Model 1 | Model 2 | Model 3 |
+|:--------:|:-------:|:-------:|:-------:|
+|     3    |    24   |    14   |    32   |
+
+![appendix](Image/Appendix_Page_1.png)
+![appendix](Image/Appendix_Page_2.png)
+![appendix](Image/Appendix_Page_3.png)
+![appendix](Image/Appendix_Page_4.png)
+![appendix](Image/Appendix_Page_5.png)
+![appendix](Image/Appendix_Page_6.png)
